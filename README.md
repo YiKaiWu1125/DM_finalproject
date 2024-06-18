@@ -20,6 +20,7 @@ datamining_finalproject/
 ├── README.md
 ├── train.py
 ├── evaluate.py
+├── model.pth(generate)
 └── submission.csv(generate)
 ```
 
@@ -36,4 +37,10 @@ conda activate final
 ```
 python train.py
 python evaluate.py
+```
+
+### Fix csv
+if csv id is not mesh, you can try
+```
+python fix/fix.py
 ```
